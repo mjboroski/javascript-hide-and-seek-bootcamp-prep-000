@@ -4,14 +4,9 @@ function getFirstSelector(selector){
 }
 
 function nestedTarget(){
-  let nestedSelector = document.getElementById('nested');
-  for (let i = 0; i < nestedSelector.length; i++) {
-    var holder = querySelector('div');
-  if(div.class=='target'){
-    return holder;
-  }
+  return document.querySelector('#nested.target')
 }
-}
+
 
 /*function increaseRankBy(n){
   querySelector(.ranked-list)
