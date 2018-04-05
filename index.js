@@ -23,9 +23,9 @@ function deepestChild(){
   var subSelection=selection.children[0];
   while(subSelection){
     selection=subSelection;
-    var subSelection=selection.children[0];
+    subSelection=selection.children[0];
   }
-    
+
   return selection;
   }
 
