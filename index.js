@@ -25,8 +25,5 @@ function deepestChild(){
     selection=subSelection;
     subSelection=selection.children[0];
   }
-
   return selection;
-  }
-
 }
