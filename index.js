@@ -17,7 +17,7 @@ function increaseRankBy(n){
   parseInt()
 }
 
-function deepestChild(){
+/*function deepestChild(){
   div#grand-node
   querySelector()
   querySelectorAll()
