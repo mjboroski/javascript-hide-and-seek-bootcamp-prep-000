@@ -4,13 +4,16 @@ function getFirstSelector(selector){
 }
 
 function nestedTarget(){
-
+  return document.querySelector(#nested.target)
 }
 
 function increaseRankBy(n){
-
+  querySelector(.ranked-list)
+  parseInt()
 }
 
 function deepestChild(){
-
+  div#grand-node
+  querySelector()
+  querySelectorAll()
 }
