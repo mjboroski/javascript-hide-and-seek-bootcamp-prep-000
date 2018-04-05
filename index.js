@@ -17,9 +17,14 @@ function increaseRankBy(n){
       }
   }
 }
-/*
+
 function deepestChild(){
-  div#grand-node
-  querySelector()
-  querySelectorAll()
-}*/
+  var selection=querySelector('div#grand-node');
+  for (let i = 0; i < selection.length; i++) {
+    if(selection[i].div!=undefined){
+      let selection = selection[i].div
+    }
+  return selection;
+  }
+
+}
