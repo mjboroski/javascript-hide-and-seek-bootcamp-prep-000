@@ -20,11 +20,13 @@ function increaseRankBy(n){
 
 function deepestChild(){
   var selection=document.getElementById('grand-node');
-  for (let i = 0; i < selection.length,i>0; i++) {
-    if(selection[i].div!=undefined){
-      let selection = selection[i].div
-    }
-  return selection.innerHTML;
+  var subSelection=selection.children[0];
+  while(subSelection){
+    selection=subSelection;
+    var subSelection=selection.children[0];
+  }
+    
+  return selection;
   }
 
 }
