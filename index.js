@@ -8,7 +8,7 @@ function nestedTarget(){
   for (let i = 0; i < nestedSelector.length; i++) {
     querySelectorAll('div');
   if(div.class=='target'){
-    return div.innerHTML;
+    return div;
   }
 }
 }
