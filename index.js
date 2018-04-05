@@ -4,7 +4,14 @@ function getFirstSelector(selector){
 }
 
 function nestedTarget(){
-  return document.getElementById('nested').querySelectorAll('div div div div.target div')
+  let nestedSelector = document.getElementById('nested')
+  for (let i = 0; i < lis.length; i++) {
+  lis[i].innerHTML = (i + 1).toString()
+  .querySelectorAll('div')
+  if(div.class=='target'){
+    return div.innerHTML
+  }
+}
 }
 
 /*function increaseRankBy(n){
