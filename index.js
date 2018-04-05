@@ -6,8 +6,8 @@ function getFirstSelector(selector){
 function nestedTarget(){
   let nestedSelector = document.getElementById('nested');
   for (let i = 0; i < nestedSelector.length; i++) {
-    querySelector('div');
-  if(div.class=='div.target'){
+    querySelector('div.target');
+  if(div.class=='target'){
     return target;
   }
 }
