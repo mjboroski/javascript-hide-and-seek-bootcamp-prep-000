@@ -4,12 +4,11 @@ function getFirstSelector(selector){
 }
 
 function nestedTarget(){
-  let nestedSelector = document.getElementById('nested')
+  let nestedSelector = document.getElementById('nested');
   for (let i = 0; i < lis.length; i++) {
-  lis[i].innerHTML = (i + 1).toString()
-  .querySelectorAll('div')
+    querySelectorAll('div');
   if(div.class=='target'){
-    return div.innerHTML
+    return div.innerHTML;
   }
 }
 }
