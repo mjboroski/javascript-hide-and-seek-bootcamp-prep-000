@@ -24,7 +24,7 @@ function deepestChild(){
     if(selection[i].div!=undefined){
       let selection = selection[i].div
     }
-  return selection;
+  return selection.innerHTML;
   }
 
 }
